@@ -1,0 +1,11 @@
+1. En cada ejercicio, ¿qué clase sobrescribe el cálculo reemplazándolo y cuál lo extiende con super()? 
+    boletocortesia reemplaza el calculo, boletoestudaiente y boletoterceraedad lo extiende con super
+
+2. ¿Por qué ninguna clase hija necesita escribir ticket()? 
+    porque la primera clase contiene la descripcion del ticket
+
+3. EstanciaPension no recibe horas en su constructor. ¿De dónde salen las 24 horas que aparecen en el ticket? 
+    en las horas fijas que ya tiene
+ 
+4. Si mañana la tarifa por hora sube a $25, ¿cuántas líneas hay que cambiar en su código? ¿Por qué? 
+    en una, solo se ajusta la tarifa en donde se usa estancia
